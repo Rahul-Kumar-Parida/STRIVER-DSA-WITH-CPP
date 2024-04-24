@@ -2,7 +2,7 @@
 #include <math.h>
 using namespace std;
 
-// 1) Count The Digit
+// 1) 🍀Count The Digit
 // int main()
 // {
 //     int n;
@@ -28,7 +28,7 @@ using namespace std;
 //     return 0;
 // }
 
-// 2)reverse a numbers
+// 2)🍀reverse a numbers
 // int reverse(int n)
 // {
 //     int rev = 0;4
@@ -41,7 +41,7 @@ using namespace std;
 //     return rev;
 // }
 
-// // 3)check palendrome
+// // 3)🍀check palendrome
 // int main()
 // {
 //     int n;
@@ -61,7 +61,7 @@ using namespace std;
 //     return 0;
 // }
 
-// 4)GCD or HCF
+// 4)🍀GCD or HCF
 // int gcd(int a, int b)
 // {
 //     if (b == 0)
@@ -102,7 +102,7 @@ using namespace std;
 //     return 0;
 // }
 
-// 5)Armstrong Numbers...
+// 5)🍀Armstrong Numbers...
 
 // bool ArmstrongNumber(int n)
 // {
@@ -149,7 +149,7 @@ using namespace std;
 //     return 0;
 // }
 
-// 6)Print All Divisiors........
+// 6)🍀Print All Divisiors........
 // int main()
 // {
 //     int n;
@@ -164,8 +164,8 @@ using namespace std;
 //     return 0;
 // }
 
-// 7)check prime;
-
+// 7)🍀check prime;
+//m-1..,,
 // int main()
 // {
 //     int n;
@@ -189,7 +189,7 @@ using namespace std;
 //     return 0;
 // }
 
-// m-2
+// m-2..,,
 bool isPrime(int N)
 {
     for (int i = 2; i < sqrt(N); i++)
