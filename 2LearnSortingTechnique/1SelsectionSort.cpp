@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace std;
 
-// selection sort......
-void selectionSort(int arr[], int n)
+void selection_sort(int arr[], int n)
 {
-    for (int i = 0; i <= n - 2; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         int mini = i;
-        for (int j = i; j <= n - 1; j++)
+        for (int j = i + 1; j < n; j++)
         {
             if (arr[j] < arr[mini])
             {
@@ -19,7 +18,6 @@ void selectionSort(int arr[], int n)
         arr[i] = temp;
     }
 }
-
 int main()
 {
     int n;
@@ -29,10 +27,21 @@ int main()
     {
         cin >> arr[i];
     }
-    selectionSort(arr, n);
+
+    cout << "Before selection sort: "
+         << "\n";
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
     }
+    cout << "\n";
+    selection_sort(arr, n);
+    cout << "After selection sort: "
+         << "\n";
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << "\n";
     return 0;
 }
