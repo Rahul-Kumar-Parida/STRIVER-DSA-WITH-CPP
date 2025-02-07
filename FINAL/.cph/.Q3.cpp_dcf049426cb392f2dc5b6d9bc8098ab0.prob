@@ -1,0 +1,1 @@
+{"name":"Local: Q3","url":"d:\\Users\\rahul\\STRIVER DSA\\FINAL\\Q3.cpp","tests":[{"id":1725301681073,"input":"anagram nagaram","output":"yes"},{"id":1725301724034,"input":"anagram aagaram","output":"no"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Users\\rahul\\STRIVER DSA\\FINAL\\Q3.cpp","group":"local","local":true}

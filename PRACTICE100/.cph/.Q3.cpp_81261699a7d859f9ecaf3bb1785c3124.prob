@@ -1,0 +1,1 @@
+{"name":"Local: Q3","url":"d:\\Users\\rahul\\STRIVER DSA\\PRACTICE100\\Q3.cpp","tests":[{"id":1724563138413,"input":"6\n1 2 4 7 7 5","output":"2 5"},{"id":1724563184934,"input":"1\n1","output":"-1 -1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Users\\rahul\\STRIVER DSA\\PRACTICE100\\Q3.cpp","group":"local","local":true}
